@@ -70,6 +70,7 @@ function addPoint() {
     if (score == 10) {
         clearInterval(timer);
         game_state = STATE_WON;
+        gameOver();
     }
 }
 
